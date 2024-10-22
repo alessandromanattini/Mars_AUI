@@ -1,0 +1,60 @@
+/* Impostazioni globali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh; /* Altezza della pagina */
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #f4f4f4; /* Colore di sfondo */
+}
+
+/* Container per i pulsanti */
+.button-container {
+    display: flex;
+    gap: 20px; /* Distanza tra i pulsanti */
+}
+
+/* Stile per i pulsanti */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per Play e Stop Button */
+.playButton {
+    background-color: #007BFF;
+}
+
+.playButton:hover {
+    background-color: #0056b3;
+}
+
+.stopButton {
+    background-color: #dc3545;
+}
+
+.stopButton:hover {
+    background-color: #a71d2a;
+}
+
+.recButton {
+    background-color: #28a745;
+}
+
+.recButton:hover {
+    background-color: #1f7d3d;
+}
